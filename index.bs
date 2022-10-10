@@ -1273,7 +1273,7 @@ partial interface StorageManager {
 The <dfn method for=StorageManager>getDirectory()</dfn> method, when
 invoked, must run these steps:
 
-1. Let |environment| be the [=current settings object=].
+1. Let |environment| be the [=current principal settings object=].
 
 1. Let |map| be the result of running [=obtain a local storage bottle map=]
    with |environment| and `"fileSystem"`. If this returns failure,
